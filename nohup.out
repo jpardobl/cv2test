@@ -1,0 +1,174 @@
+libdc1394 error: Failed to initialize libdc1394
+PARAMETERS:
+cascadeDirName: data
+vecFileName: positives.vec
+bgFileName: negativas.txt
+numPos: 2000
+numNeg: 1000
+numStages: 20
+precalcValBufSize[Mb] : 256
+precalcIdxBufSize[Mb] : 256
+stageType: BOOST
+featureType: HAAR
+sampleWidth: 20
+sampleHeight: 20
+boostType: GAB
+minHitRate: 0.995
+maxFalseAlarmRate: 0.5
+weightTrimRate: 0.95
+maxDepth: 1
+maxWeakCount: 100
+mode: BASIC
+
+===== TRAINING 0-stage =====
+<BEGIN
+POS count : consumed   2000 : 2000
+NEG count : acceptanceRatio    1000 : 1
+Precalculation time: 12
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|   0.9995|    0.765|
++----+---------+---------+
+|   4|    0.998|    0.567|
++----+---------+---------+
+|   5|   0.9965|    0.483|
++----+---------+---------+
+END>
+
+===== TRAINING 1-stage =====
+<BEGIN
+POS count : consumed   1993 : 2000
+NEG count : acceptanceRatio    996 : 0.50687
+Precalculation time: 12
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2| 0.998996| 0.693775|
++----+---------+---------+
+|   3|        1| 0.800201|
++----+---------+---------+
+|   4| 0.995986| 0.613454|
++----+---------+---------+
+|   5| 0.995986| 0.640562|
++----+---------+---------+
+|   6| 0.995986| 0.485944|
++----+---------+---------+
+END>
+
+===== TRAINING 2-stage =====
+<BEGIN
+POS count : consumed   1985 : 2000
+NEG count : acceptanceRatio    992 : 0.281179
+Precalculation time: 12
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2| 0.999496| 0.835685|
++----+---------+---------+
+|   3| 0.999496| 0.721774|
++----+---------+---------+
+|   4| 0.998489| 0.599798|
++----+---------+---------+
+|   5| 0.998992| 0.690524|
++----+---------+---------+
+libdc1394 error: Failed to initialize libdc1394
+PARAMETERS:
+cascadeDirName: data
+vecFileName: positives.vec
+bgFileName: negativas.txt
+numPos: 2000
+numNeg: 1000
+numStages: 20
+precalcValBufSize[Mb] : 256
+precalcIdxBufSize[Mb] : 256
+stageType: BOOST
+featureType: HAAR
+sampleWidth: 20
+sampleHeight: 20
+boostType: GAB
+minHitRate: 0.995
+maxFalseAlarmRate: 0.5
+weightTrimRate: 0.95
+maxDepth: 1
+maxWeakCount: 100
+mode: BASIC
+
+Stages 0-1 are loaded
+
+===== TRAINING 2-stage =====
+<BEGIN
+POS count : consumed   1985 : 2000
+NEG count : acceptanceRatio    992 : 0.257261
+Precalculation time: 12
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2| 0.999496| 0.805444|
++----+---------+---------+
+|   3| 0.998489| 0.659274|
++----+---------+---------+
+|   4| 0.996977| 0.479839|
++----+---------+---------+
+END>
+
+===== TRAINING 3-stage =====
+<BEGIN
+POS count : consumed   1979 : 2000
+NEG count : acceptanceRatio    990 : 0.142569
+Precalculation time: 12
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1| 0.943434|
++----+---------+---------+
+|   3|        1| 0.874747|
++----+---------+---------+
+|   4| 0.997473|      0.7|
++----+---------+---------+
+|   5| 0.997473| 0.771717|
++----+---------+---------+
+|   6| 0.996968|  0.70101|
++----+---------+---------+
+libdc1394 error: Failed to initialize libdc1394
+PARAMETERS:
+cascadeDirName: data/
+vecFileName: positives.vec
+bgFileName: negativas.txt
+numPos: 2000
+numNeg: 1000
+numStages: 10
+precalcValBufSize[Mb] : 256
+precalcIdxBufSize[Mb] : 256
+stageType: BOOST
+featureType: HAAR
+sampleWidth: 20
+sampleHeight: 20
+boostType: GAB
+minHitRate: 0.995
+maxFalseAlarmRate: 0.5
+weightTrimRate: 0.95
+maxDepth: 1
+maxWeakCount: 100
+mode: BASIC
+
+===== TRAINING 0-stage =====
+<BEGIN
+POS count : consumed   2000 : 2000
+NEG count : acceptanceRatio    1000 : 1
+Precalculation time: 12
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
